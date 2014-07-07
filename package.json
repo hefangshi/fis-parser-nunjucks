@@ -1,0 +1,23 @@
+{
+  "name": "fis-parser-nunjucks",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hefangshi/fis-parser-nunjucks.git"
+  },
+  "author": "hefangshi",
+  "license": "BSD",
+  "bugs": {
+    "url": "https://github.com/hefangshi/fis-parser-nunjucks/issues"
+  },
+  "keywords": "fis",
+  "homepage": "https://github.com/hefangshi/fis-parser-nunjucks",
+  "dependencies": {
+    "nunjucks": "1.0.5"
+  }
+}
