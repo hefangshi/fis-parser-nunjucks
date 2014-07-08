@@ -22,7 +22,7 @@ function normalize(file, src, env){
                     child.template.value.indexOf("/") === 0 ?
                     child.template.value :
                     path.dirname + "/" + child.template.value;
-                if (file.isFile){
+                if (fis.util.isFile(childPath)){
                     var id = fis.file(childPath).getId();
                     file.addRequire(id);
                     //TODO 用更靠谱的办法替换相对路径与ID
