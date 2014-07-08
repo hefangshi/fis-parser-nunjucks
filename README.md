@@ -26,6 +26,22 @@ fis.config.set('settings.parser.nunjucks', {
 });
 ```
 
+## KNOWN BUG
+
+you need use single quote `'` to wrap the resource path, otherwise fis won't get right resource path.
+
+e.g.
+
+```html
+<header>
+<img src="a.png"> <!-- wrong -->
+<img src='a.png'> <!-- right -->
+<h1>This is header</h1>
+</header>
+```
+
+
+
 ## DEMO
 
 https://github.com/hefangshi/fis-parser-nunjucks-demo
