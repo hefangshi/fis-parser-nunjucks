@@ -18,6 +18,6 @@
   "keywords": "fis",
   "homepage": "https://github.com/hefangshi/fis-parser-nunjucks",
   "dependencies": {
-    "nunjucks": "1.0.5"
+    "nunjucks": "3.0.0"
   }
 }
